@@ -32,8 +32,8 @@ jobs:
    #   run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
     - name: Make
-        working-directory: ${{github.workspace}}/build # Derleme dizinine geç
-        run: make # make komutunu çalıştır
+      working-directory: ${{github.workspace}}/build # Derleme dizinine geç
+      run: make # make komutunu çalıştır
   
     
     - name: Test
