@@ -2,6 +2,7 @@
 #include <iostream>
 
 int main() {
+    // Hi !
     int a = 5;
     int b = 3;
     int sum = a + b;
